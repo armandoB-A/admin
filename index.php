@@ -416,7 +416,7 @@ if (session_status()==2) {
         }else if (isset($_SESSION['pasword']) && $cont == "2"&& $_SESSION['rol']=="cliente"){
             header("location:index3.php");
         }else{
-            echo "<h3>NO se pudo master</h3>";
+            echo "<h3>No se pudo master</h3>";
         }
     } else {
         echo "<h4>Debe iniciar sesion</h4>";
